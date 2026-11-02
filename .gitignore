@@ -30,8 +30,6 @@ yarn-error.log*
 pnpm-debug.log*
 
 # environment variables
-.env
-.env.production
 
 # macOS-specific files
 .DS_Store
@@ -49,3 +47,4 @@ wallet-data-export*.json
 # share cards, drawn from the page registry by scripts/build-og-images.mjs (npm run og:build;
 # build, build:app and predev run it) and fingerprinted by Vite under /_astro/
 /src/assets/og/
+config.bat
